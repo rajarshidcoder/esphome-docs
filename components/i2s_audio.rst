@@ -8,7 +8,9 @@ I²S Audio Component
     :image: i2s_audio.svg
 
 The ``i2s_audio`` component allows for sending and receiving audio via I²S.
-This component only works on ESP32 based chips.
+
+.. warning::
+    This component **only** works on ESP32 based chips.
 
 .. code-block:: yaml
 
